@@ -1,0 +1,8 @@
+"network_error_undefined" = "Network Error - Undefined";
+"network_error_invalid_request" = "Network Error - Invalid Request";
+"network_error_invalid_response" = "Network Error - Invalid Response";
+"network_error_failed_decoding" = "Network Error - Failed Decoding";
+"network_error_timeout" = "Network Error - Timeout";
+"network_error_no_network" = "Network Error - No Connection";
+"network_error_no_mock" = "Network Error - No mock found";
+"network_error_failed_mock_loading" = "Network Error - Failed mock loading";
