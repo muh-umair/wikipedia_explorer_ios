@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8051BA232AE3942900A7877B /* WikipediaPlaceDetailHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8051BA222AE3942900A7877B /* WikipediaPlaceDetailHandlerTests.swift */; };
+		806C72E72AE27AB50067CFFE /* DependenciesAdditions in Frameworks */ = {isa = PBXBuildFile; productRef = 806C72E62AE27AB50067CFFE /* DependenciesAdditions */; };
+		806C72EA2AE280020067CFFE /* ExternalPlaceDetailHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806C72E92AE280020067CFFE /* ExternalPlaceDetailHandler.swift */; };
+		8075C5F52AE2B4FE00878D9C /* PlacesListFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8075C5F42AE2B4FE00878D9C /* PlacesListFeatureTests.swift */; };
 		80906E092AE1276500ABCF12 /* WikipediaExplorerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80906E082AE1276500ABCF12 /* WikipediaExplorerApp.swift */; };
-		80906E0B2AE1276500ABCF12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80906E0A2AE1276500ABCF12 /* ContentView.swift */; };
+		80906E0B2AE1276500ABCF12 /* PlacesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80906E0A2AE1276500ABCF12 /* PlacesListView.swift */; };
 		80906E0D2AE1276900ABCF12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80906E0C2AE1276900ABCF12 /* Assets.xcassets */; };
 		80906E102AE1276900ABCF12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80906E0F2AE1276900ABCF12 /* Preview Assets.xcassets */; };
-		80906E1A2AE1276A00ABCF12 /* WikipediaExplorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80906E192AE1276A00ABCF12 /* WikipediaExplorerTests.swift */; };
 		80906E242AE1276A00ABCF12 /* WikipediaExplorerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80906E232AE1276A00ABCF12 /* WikipediaExplorerUITests.swift */; };
-		80906E262AE1276A00ABCF12 /* WikipediaExplorerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80906E252AE1276A00ABCF12 /* WikipediaExplorerUITestsLaunchTests.swift */; };
+		80906E372AE1329600ABCF12 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 80906E362AE1329600ABCF12 /* ComposableArchitecture */; };
+		80906E3B2AE132C700ABCF12 /* PlacesListFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80906E3A2AE132C700ABCF12 /* PlacesListFeature.swift */; };
+		80906E3E2AE137DE00ABCF12 /* Services in Frameworks */ = {isa = PBXBuildFile; productRef = 80906E3D2AE137DE00ABCF12 /* Services */; };
+		80906E412AE14C3C00ABCF12 /* PlaceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80906E402AE14C3C00ABCF12 /* PlaceItem.swift */; };
+		80906E442AE14C7900ABCF12 /* CLLocationCoordinate2D+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80906E432AE14C7900ABCF12 /* CLLocationCoordinate2D+.swift */; };
+		80906E482AE14CE300ABCF12 /* PlaceItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80906E472AE14CE200ABCF12 /* PlaceItemView.swift */; };
+		80ADCA892AE3A88000430609 /* PlacesListViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ADCA882AE3A88000430609 /* PlacesListViewTests.swift */; };
+		80ADCA8C2AE3A92500430609 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 80ADCA8B2AE3A92500430609 /* SnapshotTesting */; };
+		80ADCA8E2AE3A9E000430609 /* TestConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ADCA8D2AE3A9E000430609 /* TestConfig.swift */; };
+		80ADCA912AE3B52C00430609 /* PlaceItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ADCA902AE3B52C00430609 /* PlaceItemTests.swift */; };
+		80ADCA932AE3B5AE00430609 /* PlaceItemViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ADCA922AE3B5AE00430609 /* PlaceItemViewTests.swift */; };
+		80ADCA952AE3C6E400430609 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80ADCA942AE3C6E400430609 /* Launch Screen.storyboard */; };
+		80ADCA972AE3CB9800430609 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 80ADCA962AE3CB9800430609 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +49,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8051BA222AE3942900A7877B /* WikipediaPlaceDetailHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaPlaceDetailHandlerTests.swift; sourceTree = "<group>"; };
+		806C72E42AE261DC0067CFFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		806C72E92AE280020067CFFE /* ExternalPlaceDetailHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalPlaceDetailHandler.swift; sourceTree = "<group>"; };
+		8075C5F42AE2B4FE00878D9C /* PlacesListFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListFeatureTests.swift; sourceTree = "<group>"; };
 		80906E052AE1276500ABCF12 /* WikipediaExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WikipediaExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80906E082AE1276500ABCF12 /* WikipediaExplorerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaExplorerApp.swift; sourceTree = "<group>"; };
-		80906E0A2AE1276500ABCF12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		80906E0A2AE1276500ABCF12 /* PlacesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListView.swift; sourceTree = "<group>"; };
 		80906E0C2AE1276900ABCF12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80906E0F2AE1276900ABCF12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		80906E152AE1276A00ABCF12 /* WikipediaExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikipediaExplorerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		80906E192AE1276A00ABCF12 /* WikipediaExplorerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaExplorerTests.swift; sourceTree = "<group>"; };
 		80906E1F2AE1276A00ABCF12 /* WikipediaExplorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikipediaExplorerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80906E232AE1276A00ABCF12 /* WikipediaExplorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaExplorerUITests.swift; sourceTree = "<group>"; };
-		80906E252AE1276A00ABCF12 /* WikipediaExplorerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaExplorerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		80906E342AE127FD00ABCF12 /* Services */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Services; sourceTree = "<group>"; };
+		80906E3A2AE132C700ABCF12 /* PlacesListFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListFeature.swift; sourceTree = "<group>"; };
+		80906E402AE14C3C00ABCF12 /* PlaceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceItem.swift; sourceTree = "<group>"; };
+		80906E432AE14C7900ABCF12 /* CLLocationCoordinate2D+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+.swift"; sourceTree = "<group>"; };
+		80906E472AE14CE200ABCF12 /* PlaceItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceItemView.swift; sourceTree = "<group>"; };
+		80ADCA882AE3A88000430609 /* PlacesListViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListViewTests.swift; sourceTree = "<group>"; };
+		80ADCA8D2AE3A9E000430609 /* TestConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConfig.swift; sourceTree = "<group>"; };
+		80ADCA902AE3B52C00430609 /* PlaceItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceItemTests.swift; sourceTree = "<group>"; };
+		80ADCA922AE3B5AE00430609 /* PlaceItemViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceItemViewTests.swift; sourceTree = "<group>"; };
+		80ADCA942AE3C6E400430609 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		80ADCA962AE3CB9800430609 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +79,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				806C72E72AE27AB50067CFFE /* DependenciesAdditions in Frameworks */,
+				80906E3E2AE137DE00ABCF12 /* Services in Frameworks */,
+				80906E372AE1329600ABCF12 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80ADCA8C2AE3A92500430609 /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,13 +103,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8051BA212AE3940C00A7877B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				8051BA222AE3942900A7877B /* WikipediaPlaceDetailHandlerTests.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		806C72E82AE27FED0067CFFE /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				806C72E92AE280020067CFFE /* ExternalPlaceDetailHandler.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		8075C5EF2AE2B4A000878D9C /* UserStories */ = {
+			isa = PBXGroup;
+			children = (
+				8075C5F02AE2B4AE00878D9C /* PlacesList */,
+			);
+			path = UserStories;
+			sourceTree = "<group>";
+		};
+		8075C5F02AE2B4AE00878D9C /* PlacesList */ = {
+			isa = PBXGroup;
+			children = (
+				80ADCA8F2AE3B50C00430609 /* Item */,
+				8075C5F12AE2B4CE00878D9C /* List */,
+			);
+			path = PlacesList;
+			sourceTree = "<group>";
+		};
+		8075C5F12AE2B4CE00878D9C /* List */ = {
+			isa = PBXGroup;
+			children = (
+				8075C5F42AE2B4FE00878D9C /* PlacesListFeatureTests.swift */,
+				80ADCA882AE3A88000430609 /* PlacesListViewTests.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
 		80906DFC2AE1276500ABCF12 = {
 			isa = PBXGroup;
 			children = (
+				80ADCA962AE3CB9800430609 /* README.md */,
+				80906E322AE127B500ABCF12 /* Packages */,
 				80906E072AE1276500ABCF12 /* WikipediaExplorer */,
 				80906E182AE1276A00ABCF12 /* WikipediaExplorerTests */,
 				80906E222AE1276A00ABCF12 /* WikipediaExplorerUITests */,
 				80906E062AE1276500ABCF12 /* Products */,
+				80906E3C2AE137DE00ABCF12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,10 +171,14 @@
 		80906E072AE1276500ABCF12 /* WikipediaExplorer */ = {
 			isa = PBXGroup;
 			children = (
-				80906E082AE1276500ABCF12 /* WikipediaExplorerApp.swift */,
-				80906E0A2AE1276500ABCF12 /* ContentView.swift */,
 				80906E0C2AE1276900ABCF12 /* Assets.xcassets */,
+				80906E422AE14C5600ABCF12 /* Extensions */,
+				806C72E42AE261DC0067CFFE /* Info.plist */,
 				80906E0E2AE1276900ABCF12 /* Preview Content */,
+				80906E382AE132A100ABCF12 /* UserStories */,
+				806C72E82AE27FED0067CFFE /* Utility */,
+				80906E082AE1276500ABCF12 /* WikipediaExplorerApp.swift */,
+				80ADCA942AE3C6E400430609 /* Launch Screen.storyboard */,
 			);
 			path = WikipediaExplorer;
 			sourceTree = "<group>";
@@ -113,7 +194,9 @@
 		80906E182AE1276A00ABCF12 /* WikipediaExplorerTests */ = {
 			isa = PBXGroup;
 			children = (
-				80906E192AE1276A00ABCF12 /* WikipediaExplorerTests.swift */,
+				8075C5EF2AE2B4A000878D9C /* UserStories */,
+				8051BA212AE3940C00A7877B /* Utility */,
+				80ADCA8D2AE3A9E000430609 /* TestConfig.swift */,
 			);
 			path = WikipediaExplorerTests;
 			sourceTree = "<group>";
@@ -122,9 +205,75 @@
 			isa = PBXGroup;
 			children = (
 				80906E232AE1276A00ABCF12 /* WikipediaExplorerUITests.swift */,
-				80906E252AE1276A00ABCF12 /* WikipediaExplorerUITestsLaunchTests.swift */,
 			);
 			path = WikipediaExplorerUITests;
+			sourceTree = "<group>";
+		};
+		80906E322AE127B500ABCF12 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				80906E342AE127FD00ABCF12 /* Services */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		80906E382AE132A100ABCF12 /* UserStories */ = {
+			isa = PBXGroup;
+			children = (
+				80906E392AE132B500ABCF12 /* PlacesList */,
+			);
+			path = UserStories;
+			sourceTree = "<group>";
+		};
+		80906E392AE132B500ABCF12 /* PlacesList */ = {
+			isa = PBXGroup;
+			children = (
+				80906E3F2AE14C2600ABCF12 /* Item */,
+				80906E492AE14DF900ABCF12 /* List */,
+			);
+			path = PlacesList;
+			sourceTree = "<group>";
+		};
+		80906E3C2AE137DE00ABCF12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80906E3F2AE14C2600ABCF12 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				80906E402AE14C3C00ABCF12 /* PlaceItem.swift */,
+				80906E472AE14CE200ABCF12 /* PlaceItemView.swift */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+		80906E422AE14C5600ABCF12 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				80906E432AE14C7900ABCF12 /* CLLocationCoordinate2D+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		80906E492AE14DF900ABCF12 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				80906E3A2AE132C700ABCF12 /* PlacesListFeature.swift */,
+				80906E0A2AE1276500ABCF12 /* PlacesListView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		80ADCA8F2AE3B50C00430609 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				80ADCA902AE3B52C00430609 /* PlaceItemTests.swift */,
+				80ADCA922AE3B5AE00430609 /* PlaceItemViewTests.swift */,
+			);
+			path = Item;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +292,11 @@
 			dependencies = (
 			);
 			name = WikipediaExplorer;
+			packageProductDependencies = (
+				80906E362AE1329600ABCF12 /* ComposableArchitecture */,
+				80906E3D2AE137DE00ABCF12 /* Services */,
+				806C72E62AE27AB50067CFFE /* DependenciesAdditions */,
+			);
 			productName = WikipediaExplorer;
 			productReference = 80906E052AE1276500ABCF12 /* WikipediaExplorer.app */;
 			productType = "com.apple.product-type.application";
@@ -161,6 +315,9 @@
 				80906E172AE1276A00ABCF12 /* PBXTargetDependency */,
 			);
 			name = WikipediaExplorerTests;
+			packageProductDependencies = (
+				80ADCA8B2AE3A92500430609 /* SnapshotTesting */,
+			);
 			productName = WikipediaExplorerTests;
 			productReference = 80906E152AE1276A00ABCF12 /* WikipediaExplorerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -215,6 +372,11 @@
 				Base,
 			);
 			mainGroup = 80906DFC2AE1276500ABCF12;
+			packageReferences = (
+				80906E352AE1329600ABCF12 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				806C72E52AE27AB50067CFFE /* XCRemoteSwiftPackageReference "swift-dependencies-additions" */,
+				80ADCA8A2AE3A92500430609 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+			);
 			productRefGroup = 80906E062AE1276500ABCF12 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,7 +393,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80ADCA952AE3C6E400430609 /* Launch Screen.storyboard in Resources */,
 				80906E102AE1276900ABCF12 /* Preview Assets.xcassets in Resources */,
+				80ADCA972AE3CB9800430609 /* README.md in Resources */,
 				80906E0D2AE1276900ABCF12 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +421,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80906E0B2AE1276500ABCF12 /* ContentView.swift in Sources */,
+				80906E442AE14C7900ABCF12 /* CLLocationCoordinate2D+.swift in Sources */,
+				80906E482AE14CE300ABCF12 /* PlaceItemView.swift in Sources */,
+				80906E3B2AE132C700ABCF12 /* PlacesListFeature.swift in Sources */,
+				806C72EA2AE280020067CFFE /* ExternalPlaceDetailHandler.swift in Sources */,
+				80906E0B2AE1276500ABCF12 /* PlacesListView.swift in Sources */,
 				80906E092AE1276500ABCF12 /* WikipediaExplorerApp.swift in Sources */,
+				80906E412AE14C3C00ABCF12 /* PlaceItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +435,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80906E1A2AE1276A00ABCF12 /* WikipediaExplorerTests.swift in Sources */,
+				8075C5F52AE2B4FE00878D9C /* PlacesListFeatureTests.swift in Sources */,
+				80ADCA8E2AE3A9E000430609 /* TestConfig.swift in Sources */,
+				80ADCA892AE3A88000430609 /* PlacesListViewTests.swift in Sources */,
+				80ADCA912AE3B52C00430609 /* PlaceItemTests.swift in Sources */,
+				8051BA232AE3942900A7877B /* WikipediaPlaceDetailHandlerTests.swift in Sources */,
+				80ADCA932AE3B5AE00430609 /* PlaceItemViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +449,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				80906E242AE1276A00ABCF12 /* WikipediaExplorerUITests.swift in Sources */,
-				80906E262AE1276A00ABCF12 /* WikipediaExplorerUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,9 +592,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"WikipediaExplorer/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WikipediaExplorer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -447,9 +622,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"WikipediaExplorer/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WikipediaExplorer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -577,6 +754,55 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		806C72E52AE27AB50067CFFE /* XCRemoteSwiftPackageReference "swift-dependencies-additions" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tgrapperon/swift-dependencies-additions";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		80906E352AE1329600ABCF12 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		80ADCA8A2AE3A92500430609 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		806C72E62AE27AB50067CFFE /* DependenciesAdditions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 806C72E52AE27AB50067CFFE /* XCRemoteSwiftPackageReference "swift-dependencies-additions" */;
+			productName = DependenciesAdditions;
+		};
+		80906E362AE1329600ABCF12 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80906E352AE1329600ABCF12 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		80906E3D2AE137DE00ABCF12 /* Services */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Services;
+		};
+		80ADCA8B2AE3A92500430609 /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80ADCA8A2AE3A92500430609 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 80906DFD2AE1276500ABCF12 /* Project object */;
 }

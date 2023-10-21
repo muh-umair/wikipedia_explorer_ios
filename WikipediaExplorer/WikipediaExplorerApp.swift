@@ -2,16 +2,20 @@
 //  WikipediaExplorerApp.swift
 //  WikipediaExplorer
 //
-//  Created by Muhammad Umair on 19.10.23.
-//
 
+import ComposableArchitecture
 import SwiftUI
+import XCTestDynamicOverlay
 
 @main
 struct WikipediaExplorerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if !_XCTIsTesting { // Start app only if its not a test
+                PlacesListView(store: Store(initialState: .default) {
+                    PlacesListFeature()
+                })
+            }
         }
     }
 }
